@@ -7,25 +7,25 @@ export default function About() {
       <div>
 
         <Heading
-          as="h1" className="satisfy-regular" size="xl">Meet Brynn
+          as="h1" className="satisfy-regular" size="xl">Babysitting Brynn
         </Heading>
         <div>
         <Flex direction="column" alignItems="center">
           <Image
-            borderRadius='full'
-            boxSize='150px'
-            src='https://www.cu.edu.ph/wp-content/uploads/2020/10/girl-avatar.png'
+            // borderRadius='full'
+            // boxSize='150px'
+            src='./images/baby.png'
             alt='Brynn Pearce'
           />
           </Flex>
+          <h2>Experience</h2>
           <p>
-         How long have you been babysitting?
+         I have been babsitting for ....3 years.
           </p>
           <p>
-           Why do you enjoy babysitting?
-          </p>
+I enjoy babysitting because.....          </p>
           <p>
-           What are your expertise? Ages?
+         I babysit all ages but my specialty is....
 
           </p>
         </div>
