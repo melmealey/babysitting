@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+body {
+  margin: 0px;
+}
+
+main {
+  padding: 0 2rem;
+}
+
+
+h2,
+h3,
+header,
+footer,
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: small;
+}
+
+.satisfy-regular {
+  display: flex;
+  justify-content: center;
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+[aria-current="page"] {
+  text-decoration: none;
+  font-weight: bold;
+  color: #5b8075;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  text-decoration: none;
+}
+
+.project-links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.project-links a {
+  text-decoration: none;
+  background-color: rgb(152, 228, 248);
+  color: black;
+  padding: 5px;
+  border-radius: 1ch;
+}
+
+a image {
+  display: flex;
+  flex-direction: center;
+}
+
+.honk-header {
+  font-size: xx-large;
+  margin-top: 0cap;
+  margin-bottom: 0cap;
+  font-family: "Honk", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings:
+    "MORF" 15,
+    "SHLN" 50;
+}
+
+.acme-regular {
+  font-family: "Acme", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.satisfy-regular {
+  font-family: "Satisfy", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* img.chakra-image.css-1oidk5m {
+  display: flex;
+  flex-direction: center;
+
+} */
