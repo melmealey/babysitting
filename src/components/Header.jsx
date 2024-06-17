@@ -6,7 +6,8 @@ import { Link as ReactRouterLink } from 'react-router-dom';
 
 export const HeaderFlex = chakra(Flex, {
     baseStyle: {
-      backgroundColor: '#6cdae7',
+      backgroundColor: '#bbada0',
+    
       padding: '15px',
       justifyContent: 'space-around',
       flexDirection: 'column', 
@@ -18,7 +19,7 @@ export const Header = () => {
     return (
     
         <HeaderFlex>
-          <p className='honk-header'>Brynn Pearce</p>
+          <p className='honk-header'>Babysitting Expert</p>
           <Nav />
         </HeaderFlex>
         

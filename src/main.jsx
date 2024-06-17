@@ -8,6 +8,7 @@ import App from './App';
 import Error from './pages/Error';
 import Contact from './pages/Contact';
 import About from './pages/About';
+import References from './pages/References';
 
 // Define the accessible routes, and which components respond to which URL
 const router = createBrowserRouter([
@@ -27,7 +28,12 @@ const router = createBrowserRouter([
       {
         path: '/contact',
         element: <Contact />,
+      },
+      {
+        path: '/references',
+        element: <References />,
       }
+
     ],
   },
 ]);

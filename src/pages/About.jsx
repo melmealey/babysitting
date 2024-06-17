@@ -7,7 +7,7 @@ export default function About() {
       <div>
 
         <Heading
-          as="h1" className="satisfy-regular" size="xl">Babysitting Brynn
+          as="h1" className="satisfy-regular" size="xl">Brynn Pearce
         </Heading>
         <div>
         <Flex direction="column" alignItems="center">

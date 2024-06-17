@@ -1,7 +1,7 @@
 
 const Footer = () => {
   return (
-    <footer style={{ backgroundColor: '#6cdae7', padding: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+    <footer style={{ backgroundColor: '#bbada0', padding: '10px', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
       {/* <ul style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px' }}>
           <a href='https://github.com/melmealey'>
             <img src="images/github Logo.webp" alt="Github" style={{ width: '50px', height: '50px' }} />

@@ -26,6 +26,8 @@ const Nav = () => {
         <li><StyledLink as={ReactRouterLink} to='/' aria-current={isCurrentPage('/')} >About Me</StyledLink></li>
       
         <li><StyledLink as={ReactRouterLink} to='/contact' aria-current={isCurrentPage('/contact')} >Contact</StyledLink></li>
+
+        <li><StyledLink as={ReactRouterLink} to='/references' aria-current={isCurrentPage('/references')} >References</StyledLink></li>
       </ul>
     </nav>
   )
